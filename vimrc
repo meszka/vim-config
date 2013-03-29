@@ -112,6 +112,12 @@ set wildignore+=*.o,*.class,*.pyc,*.hi
 set directory^=~/.vim/_backup//
 set backupdir^=~/.vim/_backup//
 
+" persistent undo
+set undodir=~/.vim/_undo
+set undofile
+set undolevels=10000  " max number of changes that can be undone
+set undoreload=10000  " max number lines to save for undo on a buffer reload
+
 " don't force swap file to be synced to disk after writing
 " this prevents dropbox from logging edit as 'delete + add'
 " ('set noswapfile' also works)

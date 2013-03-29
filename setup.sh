@@ -7,5 +7,7 @@ if [[ $1 = update ]]; then
 else
     git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
     ln -s ~/.vim/vimrc ~/.vimrc
+    mkdir -p ~/.vim/_backup
+    mkdir -p ~/.vim/_undo
     vim +BundleInstall +qall
 fi

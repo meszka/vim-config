@@ -1,2 +1,3 @@
-_backup
-bundle
+_backup/*
+_undo/*
+bundle/*
