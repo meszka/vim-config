@@ -24,6 +24,7 @@ Bundle 'scrooloose/syntastic'
 Bundle 'godlygeek/tabular'
 "Bundle 'UltiSnips'
 "Bundle 'LaTeX-Box-Team/LaTeX-Box'
+Bundle 'altercation/vim-colors-solarized'
 
 filetype plugin indent on
 
