@@ -25,6 +25,7 @@ Bundle 'godlygeek/tabular'
 "Bundle 'UltiSnips'
 "Bundle 'LaTeX-Box-Team/LaTeX-Box'
 Bundle 'altercation/vim-colors-solarized'
+Bundle 'the-isz/MinYankRing.vim'
 
 filetype plugin indent on
 
