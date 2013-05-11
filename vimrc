@@ -26,6 +26,10 @@ Bundle 'godlygeek/tabular'
 "Bundle 'LaTeX-Box-Team/LaTeX-Box'
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'the-isz/MinYankRing.vim'
+Bundle 'tpope/vim-sleuth'
+Bundle 'a.vim'
+"Bundle 'web-indent'
+Bundle "jonathanfilip/vim-lucius"
 
 filetype plugin indent on
 
@@ -169,10 +173,14 @@ set incsearch
 "set clipboard^=unnamed
 
 " colorscheme
+set background=light
 if &term == "linux"
     colorscheme less
 elseif &t_Co == 256
-    colorscheme xoria256
+    "colorscheme xoria256
+    "let g:lucius_contrast_bg = "high"
+    "colorscheme lucius
+    colorscheme wombat256
 else
     colorscheme my_black
 endif
@@ -330,5 +338,6 @@ if has("gui_running")
 
     " colorscheme
     "colorscheme xoria256
-    colorscheme mac_classic
+    "colorscheme mac_classic
+    colorscheme wombat256
 endif
